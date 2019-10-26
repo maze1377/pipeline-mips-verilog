@@ -144,6 +144,7 @@ MemToReg<=1'b0;
 Branch<=1'b0;
 Jump<=1'b0;
 end
+// if you want to add new instructions add here
 endcase
 end
 

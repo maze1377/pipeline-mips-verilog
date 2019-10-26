@@ -8,7 +8,7 @@ module ALU(input [31:0] data1,data2,input [3:0] aluoperation,output reg [31:0] r
       4'b0011 : result = data1 | data2; // OR
       4'b0100 : result = data1 ^ data2; // XOR
       4'b0101 : result = {31'b0,lt};//slt
-
+      // if you want to add new Alu instructions  add here
       default : result = data1 + data2; // ADD
     endcase
     if(data1>data2)

@@ -5,6 +5,7 @@ initial begin
   end
 always
 begin
+//write your test here
 #3 clk=~clk;
 end
 Mypip sc1(clk);
